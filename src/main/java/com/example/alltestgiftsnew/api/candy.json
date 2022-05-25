@@ -1,0 +1,92 @@
+{
+  "candy": [
+    {
+      "id": "23",
+      "name": "Chocolate cake",
+      "img_src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffavpng.com%2Fpng_view%2Fportuguese-sweet-bread-dripping-cake-chocolate-cake-birthday-cake-torte-cupcake-png%2FwcBNeUTr&psig=AOvVaw0XtFfiCGVvs5eb3zr0VjJJ&ust=1651142017291000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNiwp9iFtPcCFQAAAAAdAAAAABAD",
+      "description": "very good choice for birthday",
+      "price": "$25",
+      "data": "27.04"
+    },
+    {
+      "id": "24",
+      "name": "Wedding cake",
+      "img_src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.seekpng.com%2Fima%2Fu2q8t4t4o0y3u2i1%2F&psig=AOvVaw0XtFfiCGVvs5eb3zr0VjJJ&ust=1651142017291000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNiwp9iFtPcCFQAAAAAdAAAAABAK",
+      "description": "very good choice for wedding party",
+      "price": "$200",
+      "data": "28.04"
+    },
+    {
+      "id": "25",
+      "name": "Wedding cake",
+      "img_src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.crazypng.com%2F682.html&psig=AOvVaw0XtFfiCGVvs5eb3zr0VjJJ&ust=1651142017291000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNiwp9iFtPcCFQAAAAAdAAAAABAp",
+      "description": "very good choice for wedding",
+      "price": "$300",
+      "data": "28.04"
+    },
+    {
+      "id": "26",
+      "name": "Strawberry cake",
+      "img_src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.citypng.com%2Fphoto%2F14691%2Fhd-chocolate-and-strawberry-cake-png&psig=AOvVaw19FAZ5_wgkt2GewvOkoiwi&ust=1651142295746000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKCpn8iGtPcCFQAAAAAdAAAAABAe",
+      "description": "very good choice for birthday parties",
+      "price": "$30",
+      "data": "27.04"
+    },
+    {
+      "id": "27",
+      "name": "Fruitcake",
+      "img_src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fsearch%3Fq%3Dfruitcake&psig=AOvVaw15Zr4Gluz_i0_SJYdA2QPM&ust=1651142459329000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNiFpZKHtPcCFQAAAAAdAAAAABAD",
+      "description": "very good choice for birthday parties",
+      "price": "$20",
+      "data": "27.04"
+    },
+    {
+      "id": "28",
+      "name": "Berrycake",
+      "img_src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffavpng.com%2Fpng_view%2Fchocolate-cake-fruitcake-torte-chocolate-cake-birthday-cake-lolas-cake-png%2FKytDPZpK&psig=AOvVaw15Zr4Gluz_i0_SJYdA2QPM&ust=1651142459329000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNiFpZKHtPcCFQAAAAAdAAAAABAJ",
+      "description": "very good choice for birthday parties",
+      "price": "$30",
+      "data": "27.04"
+    },
+    {
+      "id": "29",
+      "name": "FruitCake",
+      "img_src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsimilarpng.com%2Ffruit-cake-with-vanilla-cream-on-wooden-stand-on-transparent-background-png%2F&psig=AOvVaw15Zr4Gluz_i0_SJYdA2QPM&ust=1651142459329000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNiFpZKHtPcCFQAAAAAdAAAAABAP",
+      "description": "very good choice for birthday parties",
+      "price": "$30",
+      "data": "27.04"
+    },
+    {
+      "id": "30",
+      "name": "Flowercake",
+      "img_src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fflori.space%2Fflower-cake&psig=AOvVaw22msNYU_B8hVb_NctT3nlF&ust=1651142655790000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjOgJWItPcCFQAAAAAdAAAAABAE",
+      "description": "very good choice for birthday parties",
+      "price": "$25",
+      "data": "27.04"
+    },
+    {
+      "id": "31",
+      "name": "Cocoa cake",
+      "img_src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.crazypng.com%2F426.html&psig=AOvVaw22msNYU_B8hVb_NctT3nlF&ust=1651142655790000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjOgJWItPcCFQAAAAAdAAAAABAK",
+      "description": "very good choice for birthday parties",
+      "price": "$25",
+      "data": "27.04"
+    },
+    {
+      "id": "32",
+      "name": "Chocolate cake",
+      "img_src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.crazypng.com%2F426.html&psig=AOvVaw22msNYU_B8hVb_NctT3nlF&ust=1651142655790000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjOgJWItPcCFQAAAAAdAAAAABAK",
+      "description": "very good choice for birthday parties",
+      "price": "$15",
+      "data": "27.04"
+    },
+    {
+      "id": "33",
+      "name": "Rosette cake",
+      "img_src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftoppng.com%2Ffree-image%2Fmichels-patisserie-rosette-cake-PNG-free-PNG-Images_216204&psig=AOvVaw22msNYU_B8hVb_NctT3nlF&ust=1651142655790000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjOgJWItPcCFQAAAAAdAAAAABAa",
+      "description": "very good choice for birthday parties",
+      "price": "$11",
+      "data": "27.04"
+    }
+  ]
+}

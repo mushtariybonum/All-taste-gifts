@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alltestgiftsnew.product_list_Controller">
+   <children>
+      <BorderPane layoutX="175.0" layoutY="91.0" prefHeight="200.0" prefWidth="200.0" styleClass="transparent" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <VBox prefHeight="200.0" prefWidth="270.0" style="-fx-background-color: #A97155;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="go_back_button_cart" mnemonicParsing="false" onAction="#GoBack" prefHeight="41.0" prefWidth="43.0" stylesheets="@style.css">
+                     <graphic>
+                        <ImageView fitHeight="34.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/go-back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="hovers" />
+                        <String fx:value="iconButton" />
+                     </styleClass>
+                     <VBox.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Button>
+                  <VBox fx:id="product_card_basket" alignment="TOP_CENTER" prefHeight="306.0" prefWidth="100.0" styleClass="cart_item_card" stylesheets="@style.css">
+                     <VBox.margin>
+                        <Insets left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <Label fx:id="product_name_cart" alignment="CENTER" contentDisplay="TOP" prefHeight="48.0" prefWidth="230.0" text="Rose bouquet">
+                           <font>
+                              <Font name="Cambria" size="25.0" />
+                           </font>
+                        </Label>
+                        <ImageView fx:id="product_image_cart" fitHeight="159.0" fitWidth="155.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/User/Desktop/Github/AllTestGiftsNew/src/main/resources/img/pinpng.com-rose-emoji-png-698878.png" />
+                           </image>
+                        </ImageView>
+                        <HBox alignment="CENTER" prefHeight="42.0" prefWidth="230.0">
+                           <children>
+                              <Text fx:id="description_cart" strokeType="OUTSIDE" strokeWidth="0.0" text="Roses, very elegant and adorable gift for any occasion!" textAlignment="CENTER" wrappingWidth="195.64453125">
+                                 <font>
+                                    <Font name="Cambria" size="12.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="44.0" prefWidth="230.0">
+                           <children>
+                              <Label prefHeight="25.0" prefWidth="75.0" text="price:">
+                                 <font>
+                                    <Font name="Cambria" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="product_price_cart" prefHeight="30.0" prefWidth="74.0" text="\$70">
+                                 <font>
+                                    <Font name="Cambria" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="delete_button" mnemonicParsing="false" prefHeight="29.0" prefWidth="55.0" styleClass="delete" stylesheets="@style.css" text="Delete">
+                                 <font>
+                                    <Font name="Cambria" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="53.0" prefWidth="370.0" styleClass="cart_item_card" stylesheets="@style.css">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label text="Shopping CART">
+                           <font>
+                              <Font name="Cambria" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <ScrollPane fx:id="scroll_cart" prefHeight="303.0" prefWidth="442.0" styleClass="transparent" stylesheets="@style.css" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="20.0" left="30.0" right="30.0" top="10.0" />
+                           </HBox.margin>
+                           <content>
+                              <GridPane fx:id="grid_cart" prefHeight="0.0" prefWidth="0.0">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                              </GridPane>
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

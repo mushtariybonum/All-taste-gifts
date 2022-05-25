@@ -1,0 +1,86 @@
+.iconButton{
+    -fx-background-color: inherit;
+    -fx-background-radius: 40px;
+}
+
+.scrollPane{
+    -fx-background-color:inherit;
+}
+
+
+.popular{
+ -fx-background-color: #396EB0;
+ -fx-background-radius: 40px;
+
+}
+.popular:hover{
+    -fx-background-color: #2E4C6D;
+}
+
+.hovers:hover{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6),5,0.0,0,1);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-scale-z: 1.05;
+}
+
+.productDescription:hover{
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-scale-z: 1.05;
+}
+
+.backProductCard{
+    -fx-background-color: #F7E2E2;
+    -fx-background-radius: 30px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6),5,0.0,0,1);
+}
+
+.buy {
+    -fx-background-color: #5584AC;
+    -fx-background-radius: 30px;
+}
+
+.buy:hover{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6),5,0.0,0,1);
+}
+
+.buy:armed{
+    -fx-background-color: #CE7BB0;
+}
+
+.transparent{
+   -fx-background-color:  #F9F9F9;
+}
+
+.items {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 30px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6),5,0.0,0,1);
+}
+
+.cart_item_card {
+    -fx-background-color: #E4D1B9;
+    -fx-background-radius: 30px;
+}
+
+.delete {
+    -fx-background-color: #A97155;
+    -fx-background-radius: 30px;
+}
+
+.delete:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6),5,0.0,0,1);
+}
+
+.delete:armed {
+    -fx-background-color: #733C3C;
+}
+
+
+
+.label_cart{
+
+}
+
+
